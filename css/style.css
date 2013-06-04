@@ -13,6 +13,10 @@
   width: 1106px;
 }
 
+.header {
+  margin-top: 20px;
+}
+
 nav#main-nav {
   float: right;
   margin-bottom: 25px;
