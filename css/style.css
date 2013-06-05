@@ -9,10 +9,6 @@
   font-style: normal;
 }
 
-.container {
-  width: 1106px;
-}
-
 .header {
   margin-top: 20px;
 }
@@ -49,6 +45,10 @@ nav#main-nav > ul {
   position: relative;
 }
 
+.element img {
+  width: 100%;
+}
+
 .element-1-1 {
   width: 158px;
   height: 158px;
@@ -62,5 +62,42 @@ nav#main-nav > ul {
 .element-2-2 {
   width: 316px;
   height: 316px;
-  
+}
+
+@media (min-width: 1200px) {
+
+  .element-1-1 {
+    width: 195px;
+    height: 195px;
+  }
+
+  .element-1-2 {
+    width: 390px;
+    height: 195px;
+  }
+
+  .element-2-2 {
+    width: 390px;
+    height: 390px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .element-1-1 {
+    width: 156.66px;
+    height: 156.66px;
+  }
+
+  .element-1-2 {
+    width: 313.33px;
+    height: 156.66px;
+  }
+
+  .element-2-2 {
+    width: 313.33px;
+    height: 313.33px;
+  }
+
 }
